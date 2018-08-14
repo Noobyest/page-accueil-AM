@@ -1,0 +1,117 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+container-body{
+	flex: 1 0 auto;
+
+}
+
+/* le footer*/
+.social-networks {
+	flex-shrink: 0;
+}
+
+/* Navaar */
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: pink;
+
+}
+
+.nav-items{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav-items li {
+	float: left;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: white;
+  font-family: Open-sans;
+}
+
+.nav-items li a:hover {
+  color: orange;
+}
+
+.navbar-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-right li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#name {
+  color: white;
+}
+
+/*footer*/
+/*facebook*/
+
+fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #627AAC;
+    color: white;
+}
+
+
+/*twitter*/
+.fa-twitter {
+    background: #76BCF1;
+    color: white;
+}
+
+.fa-google {
+    background: #E36E60;
+    color: white;
+}
+
+
+.fa-linkedin {
+    background: #3295C3;
+    color: white;
+}
+
+.fa-youtube {
+    background: #C83232;
+    color: white;
+}
+
+.social-items li {
+  float: left;
+  display: block;
+  padding: 8px;
+}
